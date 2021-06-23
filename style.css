@@ -13,3 +13,11 @@
   input, textarea {
     width: 100%;
   }
+  
+#inicio{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body{
+  background-image: url('/img/1.png');
+}
