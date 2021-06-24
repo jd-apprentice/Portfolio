@@ -30,7 +30,7 @@ function traducirENG() {
   $changeNombre.innerText = 'Name';
   $changeEmail.innerText = 'Email';
   $changeMensaje.innerText = 'Message';
-  $changeSubir.value = 'Sumbit';
+  $changeSubir.value = 'Submit';
   $changeText.innerText = "I'm Jonathan. I consider myself a self-taught person; I am currently starting to take the time to specialize in various areas of programming. As a short term I have an interest in front end web development and as a long term I would be interested in learning machine learning and artificial intelligence, I also have extensive knowledge in software and hardware to provide technical support or customer service in related stores. Learning is something that I adore and I do it in various fields; I look forward to acquiring a place to give, all my experience and wishes to progress.";
 }
 
