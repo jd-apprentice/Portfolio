@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch&display=swap");
-body {
-  background-image: url("/img/1.png");
-}
 
 .form-box {
   max-width: 500px;
@@ -70,6 +67,7 @@ input, textarea {
 }
 
 body {
+  background-image: url("/img/1.png");
   margin: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
