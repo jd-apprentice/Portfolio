@@ -1553,4 +1553,10 @@ textarea.form-control {
   right: 1rem;
   top: .8rem;
 }
+
+footer p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=custom.css.map */

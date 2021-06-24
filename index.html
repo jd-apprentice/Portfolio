@@ -4,7 +4,6 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
@@ -19,8 +18,8 @@
     <nav class="navbar-expand-lg navbar fixed-top navbar-primary bg-info">
       <div class="container-fluid d-flex flex-row-reverse">
         <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-outline-primary fw-bold">ESP</button>
-          <button type="button" class="btn btn-outline-primary fw-bold">ENG</button>
+          <button id="ESP" type="button" class="btn btn-outline-primary fw-bold">ESP</button>
+          <button id="ENG" type="button" class="btn btn-outline-primary fw-bold">ENG</button>
         </div>
           <a class="navbar-brand fw-bold text-primary" href="#!">jd-apprentice</a>
         <button class="navbar-toggler badge bg-info border bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,19 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#top">Home</a>
+              <a id="home" class="nav-link active" aria-current="page" href="#top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a id="contact" class="nav-link" href="#contact">Contact</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About me
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#texto">Skills</a></li>
-                <li><a class="dropdown-item" href="#Works">Works</a></li>
-              </ul>
+            <li class="nav-item">
+              <a id="skills" class="nav-link" href="#texto">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a id="works" class="nav-link" href="#Works">Works</a>
             </li>
           </ul>
         </div>
@@ -54,10 +50,10 @@
       <div class="py-5">
         <h1 class="display-3 fw-bold text-secondary" id="texto">Jonathan Dyallo</h1>
           <div id="inicio" class="col-lg-10 mx-auto">
-            <p class="fs-5 mb-4 text-info fw-bolder">Soy Jonathan me considero una persona autodidacta; actualmente empecé a tomarme el tiempo de especializarme en varios ámbitos de la programación. Como corto plazo tengo interés en el desarrollo web front end y como largo plazo me interesaría aprender machine learning e inteligencia artificial, también tengo amplio conocimiento en software y hardware para hacer de soporte técnico o atención al cliente en tiendas relacionadas. Aprender es algo que adoro y lo hago en varios ámbitos; espero con ansias poder adquirir un lugar donde brindar, toda mi experiencia y deseos por progresar.</p>
+            <p id="presentacion-es"class="fs-5 mb-4 text-info fw-bolder">Soy Jonathan me considero una persona autodidacta; actualmente empecé a tomarme el tiempo de especializarme en varios ámbitos de la programación. Como corto plazo tengo interés en el desarrollo web front end y como largo plazo me interesaría aprender machine learning e inteligencia artificial, también tengo amplio conocimiento en software y hardware para hacer de soporte técnico o atención al cliente en tiendas relacionadas. Aprender es algo que adoro y lo hago en varios ámbitos; espero con ansias poder adquirir un lugar donde brindar, toda mi experiencia y deseos por progresar.</p>
           <div class="d-grid gap-4 d-sm-flex justify-content-sm-center">
             <a target="_blank" href="https://drive.google.com/file/d/1jXO0ysA3ODEBogPNKfpUBlseStinUH-i/view?usp=sharing">
-              <button type="button" class="btn btn-outline-info btn-lg px-4">Get CV</button>
+              <button id="CV" type="button" class="btn btn-outline-info btn-lg px-4">Get CV</button>
             </a>
             <a target="_blank" href="https://github.com/jd-apprentice" id="GitHub">
               <button type="button" class="btn btn-outline-info btn-lg px-4">GitHub</button>
@@ -67,7 +63,7 @@
             </a>
           </div>
             <div class="py-3" id="skills">
-              <h2 class="display-3 mb-1 mt-1 fw-bold text-secondary">Skills</h2>
+              <h2 id="Skills" class="display-3 mb-1 mt-1 fw-bold text-secondary">Skills</h2>
             <div class="container">
               <div class="row">
                   <div class="col">
@@ -253,24 +249,24 @@
     <div class="bg-dark text-secondary px-3 py-3 text-center" style="background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/bMFzAr.jpg')";>
       <div class="pt-3">
           <div class="mt-5" id="contact">
-            <h1 class="text-info">Let's work together!</h1>
+            <h1 id="together" class="text-info">Let's work together!</h1>
           </div>
           <div class="border border-info form-box bg-dark text-primary">
-            <h2 class="text-info">Contact me!</h2>
+            <h2 id="contactme" class="text-info">Contact me!</h2>
             <form action="https://formspree.io/f/xoqywyka" method="POST" id="form">
               <div class="form-group text-primary">
-                <label for="name">Name</label>
+                <label id="nombre" for="name">Name</label>
                 <input class="form-control" id="name" type="text" name="Name">
               </div>
               <div class="form-group">
-                <label for="email">Email</label>
+                <label id="email" for="email">Email</label>
                 <input class="form-control" id="email" type="email" name="Email">
               </div>
               <div class="form-group">
-                <label for="message">Message</label>
+                <label id="mensaje" for="message">Message</label>
                 <textarea class="form-control" id="message" name="Message"></textarea>
               </div>
-              <input class="btn btn-info mt-3" type="submit" value="Submit">
+              <input id="subir" class="btn btn-info mt-3" type="submit" value="Submit">
             </form>
           </div>
         </div>
@@ -295,8 +291,12 @@
         </div>
       </div>
     </div>
-   
+  
+    <footer>
+      <p>Portofolio with <a href="https://getbootstrap.com/" class="text-primary">Bootstrap</a>, by <a href="https://twitter.com/jd_apprentice" class="text-primary">@jd-apprentice</a>.</p>
+    </footer>
+
     <script src="js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
   </body>
 </html>
