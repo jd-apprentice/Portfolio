@@ -118,14 +118,9 @@ p {
 
 ul {
   padding-left: 2rem;
-}
-
-
-ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 
 ul ul {
   margin-bottom: 0;
@@ -479,6 +474,8 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -806,6 +803,9 @@ textarea.form-control {
           justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
 }
 
 .navbar > .container,
@@ -1479,12 +1479,6 @@ textarea.form-control {
   }
 }
 
-.navbar {
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
-}
-
 .navbar.fixed-top {
   border-radius: 0 25px 225px 0/25px 0 25px 255px;
   border-width: 0 0 2px;
@@ -1493,11 +1487,6 @@ textarea.form-control {
 .navbar-brand {
   font-family: "Cabin Sketch", cursive;
   font-weight: 400;
-  text-decoration: none;
-}
-
-.btn {
-  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
   text-decoration: none;
 }
 
