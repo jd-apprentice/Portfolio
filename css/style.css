@@ -954,6 +954,7 @@ textarea.form-control {
   background-clip: border-box;
   border: 2px solid #333;
   border-radius: 25px;
+  border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
 }
 
 .card-group > .card {
@@ -1029,6 +1030,7 @@ textarea.form-control {
   border: 0;
   border-radius: 25px;
   opacity: 1;
+  background-image: none;
 }
 
 .btn-close:hover {
@@ -1088,6 +1090,7 @@ textarea.form-control {
   border: 2px solid #333;
   border-radius: 35px;
   outline: 0;
+  border-radius: 15px 5px 5px 25px/5px 25px 25px 5px;
 }
 
 .modal-header {
@@ -1522,18 +1525,6 @@ textarea.form-control {
 
 .badge {
   border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
-}
-
-.card {
-  border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
-}
-
-.modal-content {
-  border-radius: 15px 5px 5px 25px/5px 25px 25px 5px;
-}
-
-.btn-close {
-  background-image: none;
 }
 
 .btn-close::before {
