@@ -76,21 +76,21 @@ function cerrar() {
 // Formulario - funcion para subir
 
 async function subir(event) {
-    event.preventDefault()
-    const nombreForm = document.querySelector('#name').value;
-    const form = new FormData(this)
-    const response = await fetch(this.action, {
-    method: this.method, 
+  event.preventDefault()
+  const nombreForm = document.querySelector('#name').value;
+  const form = new FormData(this)
+  const response = await fetch(this.action, {
+    method: this.method,
     mode: 'no-cors',
     body: form,
     header: {
-        'Accept': 'application/json',
-        'mode': "no-cors"
-        }
-    })
-    
-    if (response.status === 0 ) {
-        $modalText.innerHTML = `${nombreForm} gracias por enviar tu formulario! estare leyendo tu propuesta al instante.`;
-        $modal.style.display = 'flex';
+      'Accept': 'application/json',
+      'mode': "no-cors"
     }
+  })
+
+  if (response.status === 0) {
+    $modalText.innerHTML = `${nombreForm} gracias por enviar tu formulario! estare leyendo tu propuesta al instante.`;
+    $modal.style.display = 'flex';
+  }
 }
