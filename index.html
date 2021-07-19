@@ -21,7 +21,7 @@
 <!-- Navbar Section -->
     
   <section class="NAVBAR-TOP">
-    <nav class="navbar-expand-lg navbar fixed-top navbar-primary bg-info">
+    <nav class="navbar-expand-lg navbar sticky-top navbar-primary bg-info">
       <div class="container-fluid d-flex flex-row-reverse">
         <div class="btn-group" role="group" aria-label="Basic example">
           <button id="ESP" type="button" class="btn btn-outline-primary fw-bold">ESP</button>
@@ -51,12 +51,11 @@
     </nav>
   </section>
 <!-- Landing Page Section -->
-  <section class="ABOUT-ME">
-    <div class="bg-dark text-secondary px-5 pt-5 text-center" style="background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/bMFzAr.jpg');">
-        <div class="py-5">
-          <h1 data-text="Jonathan Dyallo" class="display-3 fw-bold mt-3 text-secondary">Jonathan Dyallo</h1>
-            <div id="inicio" class="col-lg-10 mx-auto">
-              <p id="presentacion-es"class="fs-5 mb-4 mx-3 text-info fw-bolder textoinicio">Soy Jonathan me considero una persona autodidacta; actualmente empecé a tomarme el tiempo de especializarme en varios ámbitos de la programación. Como corto plazo tengo interés en el desarrollo web front end y como largo plazo me interesaría aprender machine learning e inteligencia artificial, también tengo amplio conocimiento en software y hardware para hacer de soporte técnico o atención al cliente en tiendas relacionadas. Aprender es algo que adoro y lo hago en varios ámbitos; espero con ansias poder adquirir un lugar donde brindar, toda mi experiencia y deseos por progresar.</p>
+  <section class="ABOUT-ME bg-dark">
+    <div class="text-secondary text-center">
+          <h1 data-text="Jonathan Dyallo" class="fw-bold text-secondary">Jonathan Dyallo</h1>
+            <div id="inicio">
+              <p id="presentacion-es"class="text-info fw-bolder textoinicio">Soy Jonathan me considero una persona autodidacta; actualmente empecé a tomarme el tiempo de especializarme en varios ámbitos de la programación. Como corto plazo tengo interés en el desarrollo web front end y como largo plazo me interesaría aprender machine learning e inteligencia artificial, también tengo amplio conocimiento en software y hardware para hacer de soporte técnico o atención al cliente en tiendas relacionadas. Aprender es algo que adoro y lo hago en varios ámbitos; espero con ansias poder adquirir un lugar donde brindar, toda mi experiencia y deseos por progresar.</p>
             <div class="d-grid gap-4 d-sm-flex justify-content-sm-center">
               <a target="_blank" href="https://drive.google.com/file/d/1jXO0ysA3ODEBogPNKfpUBlseStinUH-i/view?usp=sharing">
                 <button id="CV" type="button" class="btn btn-outline-info btn-lg px-4">Ver CV</button>
@@ -68,37 +67,32 @@
                 <button type="button" class="btn btn-outline-info btn-lg px-4">LinkedIn</button>
               </a>
             </div>
-              <div class="py-3" id="skills">
-                <h2 id="Skills" class="display-3 mb-1 mt-5 fw-bold text-secondary">Habilidades</h2>
-              <div class="container">
+              <div class="container" id="skills">
                 <div class="row">
-                    <div class="col">
-                    <a target="_blank" href="https://www.javascript.com/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/logo-javascript.png" alt="Javascript" width="120"></a>
-                    <a target="_blank" href="https://getbootstrap.com/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/bootstrap-42.png" alt="Bootstrap" width="120"></a>
-                    <a target="_blank" href="https://html5.org/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/html55.png" alt="HTML5" width="108"></a>
-                    <a target="_blank" href="https://www.python.org/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/python-5.png" alt="Python" width="120"></a> 
-                    <a target="_blank" href="https://ubuntu.com/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/ubuntu-4.png" alt="Ubuntu" width="120"></a>
-                    <a target="_blank" href="https://github.com/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/github-icon-1.png" alt="GitHub" width="120"></a>
-                    <a target="_blank" href="https://git-scm.com/"><img class="ms-3 mt-3 img-fluid btn btn-outline-primary" src="img/svg celeste/git-icon.png" alt="Git" width="120"></a>              
-                    </div>
-                  </div>
+                  <h2 id="Skills" class="fw-bold text-secondary">Habilidades</h2>
+                   <div class="col"><a target="_blank" href="https://www.javascript.com/"><img class="btn btn-outline-primary" src="img/svg celeste/logo-javascript.png" alt="Javascript" width="120"></a></div>
+                   <div class="col"><a target="_blank" href="https://getbootstrap.com/"><img class="btn btn-outline-primary" src="img/svg celeste/bootstrap-42.png" alt="Bootstrap" width="120"></a></div>
+                   <div class="col"><a target="_blank" href="https://html5.org/"><img class="btn btn-outline-primary" src="img/svg celeste/html55.png" alt="HTML5" width="108"></a></div>
+                   <div class="col"><a target="_blank" href="https://www.python.org/"><img class="btn btn-outline-primary" src="img/svg celeste/python-5.png" alt="Python" width="120"></a></div>
+                   <div class="col"><a target="_blank" href="https://ubuntu.com/"><img class="btn btn-outline-primary" src="img/svg celeste/ubuntu-4.png" alt="Ubuntu" width="120"></a></div>
+                   <div class="col"><a target="_blank" href="https://github.com/"><img class="btn btn-outline-primary" src="img/svg celeste/github-icon-1.png" alt="GitHub" width="120"></a></div>
+                   <div class="col"><a target="_blank" href="https://git-scm.com/"><img class="btn btn-outline-primary" src="img/svg celeste/git-icon.png" alt="Git" width="120"></a></div>
                 </div>
-              </div>
             </div>
           </div>
-        </div>
+      </div>
   </section>
 <!-- Works Section -->
   <section class="WORKS">
-    <div class="py-2" id="nav-trabajos">
-      <h2 class="display-3 fw-bold text-grey mt-5 d-flex justify-content-center" id="Works">Trabajos</h2>
+    <div id="nav-trabajos">
+      <h2 class="fw-bold text-grey d-flex justify-content-center" id="Works">Trabajos</h2>
     </div>
   
     <div class="container">
       <div class="card-group">
             <div id="tribute" class="col mx-3 my-5" style="height: 500px;">
               <p class="fw-bold fs-2 display-2 lh-1">Tribute Page</p>
-              <div class=" card border-primary mb-3 card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/card1.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <div class="card border-primary mb-3 card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/card1.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="me-auto">
@@ -172,8 +166,8 @@
             </div>
 
             <div class="col mx-3 my-5" style="height: 500px;">
-              <p class="fw-bold fs-2 display-2 lh-1">Password Generator</p>
-              <div class="card border-primary mb-3 card card-cover h-100 overflow-hidden text-white bg-white rounded-5 shadow-lg" style="background-image: url('img/card8.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+              <p class="fw-bold fs-2 display-2 lh-1">Pure Gold</p>
+              <div class="card border-primary mb-3 card card-cover h-100 overflow-hidden text-white bg-white rounded-5 shadow-lg" style="background-image: url('img/card8.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
                   <ul class="d-flex list-unstyled mt-auto">
                     <li class="me-auto">
@@ -181,13 +175,13 @@
                     </li>
                     <li class="d-flex align-items-center me-2 fs-3">
                       <svg class="bi me-2" width="1em" height="1em"></svg>
-                      <a class="text-decoration-none badge bg-info" target="_blank" href="https://github.com/jd-apprentice/python/blob/main/GUI%20Scripts/PasswordGenerator.pyw">
+                      <a class="text-decoration-none badge bg-info" target="_blank" href="https://github.com/jd-apprentice/Pure-Gold">
                         <small>GitHub</small>
                       </a>
                     </li>
                     <li class="d-flex align-items-center me-3 fs-3">
                       <svg class="bi me-2" width="1em" height="1em"></svg>
-                      <a class="text-decoration-none badge bg-info" target="_blank" href="#">
+                      <a class="text-decoration-none badge bg-info" target="_blank" href="https://jd-apprentice.github.io/Pure-Gold/">
                         <small>Demo</small>
                       </a>
                     </li>

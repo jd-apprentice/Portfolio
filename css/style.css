@@ -1545,3 +1545,13 @@ footer p {
   transition: all 1s ease;
   z-index: 999;
 }
+
+.ABOUT-ME {
+  background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/bMFzAr.jpg');
+  height: 100vh;
+  width: 100%;
+}
+
+.WORKS {
+  height: auto;
+}
