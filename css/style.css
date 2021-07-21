@@ -1594,7 +1594,7 @@ footer p {
 }
 
 .tribute-card {
-  background-image: url('/img/card1.png');
+  background-image: url("../img/card1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1605,7 +1605,7 @@ footer p {
 }
 
 .portfolio-card {
-  background-image: url('/img/card8.png');
+  background-image: url("../img/card4.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1616,7 +1616,7 @@ footer p {
 }
 
 .jd-Informatica-card {
-  background-image: url('/img/card6.png');
+  background-image: url("../img/card6.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1627,7 +1627,7 @@ footer p {
 }
 
 .Pure-Gold-Card {
-  background-image: url('/img/card4.png');
+  background-image: url("../img/card8.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1638,7 +1638,7 @@ footer p {
 }
 
 .apiAnimals-card {
-  background-image: url('/img/card3.png');
+  background-image: url("../img/card3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1649,7 +1649,7 @@ footer p {
 }
 
 .calculadora-JS-card {
-  background-image: url('/img/calculadora.png');
+  background-image: url("../img/calculadora.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
